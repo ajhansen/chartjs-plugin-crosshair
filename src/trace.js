@@ -246,7 +246,7 @@ export default function(Chart) {
 
 		},
 
-		afterDraw: function(chart) {
+		beforeDatasetsDraw: function(chart) {
 
 			if (!chart.crosshair.enabled) {
 				return;
